@@ -262,7 +262,7 @@ To get the actual probability of $c$, though, it is not sufficient to just look 
 
 $$(g\ast f)(c) = \sum_{b \cdot a = c} g(b)f(a)$$
 
-Substituting $a = b^{-1}c$, we get:
+Substituting $b = a^{-1}c$, we get:
 
 $$(g\ast f)(c) = \sum_{a} g(a^{-1}c)f(a)$$
 
