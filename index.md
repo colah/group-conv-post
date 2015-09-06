@@ -262,9 +262,9 @@ To get the actual probability of $c$, though, it is not sufficient to just look 
 
 $$(g\ast f)(c) = \sum_{b \cdot a = c} g(b)f(a)$$
 
-Substituting $a = b^{-1}c$, we get:
+Substituting $b = ca^{-1}$, we get:
 
-$$(g\ast f)(c) = \sum_{a} g(a^{-1}c)f(a)$$
+$$(g\ast f)(c) = \sum_{a} g(ca^{-1})f(a)$$
 
 This can be nicely thought of as a sum over the intermediate permutations, $a$, looking at the probability of that intermediate permutation, and the probability of the permutation necessary to bring us to $c$ from there.
 
